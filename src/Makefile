@@ -174,7 +174,7 @@ REDRIVER2_OBJS += \
 REDRIVER2_OBJS += \
 	$(REDRIVER2_OBJDIR)/redriver2_psxpc.o
 
-REDRIVER2_LIBS = -ljpeg -lGL -lopenal -lSDL2 -ldl
+REDRIVER2_LIBS = -ljpeg -lGL -lopenal -lSDL2 
 
 # =============================================================
 .PHONY: all clean help
